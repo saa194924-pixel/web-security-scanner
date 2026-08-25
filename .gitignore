@@ -1,0 +1,51 @@
+# متغيرات البيئة (بحتوي على مفاتيح سرية)
+.env
+.env.local
+.env.*.local
+
+# ملفات النظام
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# بيئة Python الافتراضية
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE والمحررات
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ملفات السجلات والتقارير
+*.log
+scanner_access.log
+scan_report_*.json
+reports/
+
+# قاعدة البيانات
+*.db
+*.sqlite
+*.sqlite3
+
+# الملفات المؤقتة
+*.tmp
+*.temp
+.cache/
+
+# نتائج الاختبار
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ملفات النسخة الاحتياطية
+*.bak
+*.backup
+backup/
